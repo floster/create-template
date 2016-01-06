@@ -26,6 +26,7 @@
     "grunt-autoprefixer": "^3.0.3",
     "grunt-contrib-mincss": "^0.3.2",
     "grunt-contrib-sass": "^0.9.2",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-svgstore": "^0.5.0"
   }
 }
