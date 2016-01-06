@@ -23,14 +23,14 @@ module.exports = function(grunt) {
 		    expand: true,
 		    flatten: true,
 		    src: 'css/dev/global.css',
-		    dest: 'css/dev/global.pefixed.css'
+		    dest: 'css/dev/prefixed/'
 		  }
 		},
 
 		cssmin: {
 			combine: {
 		    files: {
-		      'css/global.min.css': ['css/dev/global.pefixed.css']
+		      'css/global.min.css': ['css/dev/prefixed/global.css']
 		    }
 		  }
 		},
